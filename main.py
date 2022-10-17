@@ -11,8 +11,8 @@ import random
 
 
 from defs import getUrl, getcards, phone
-API_ID =  10855309
-API_HASH = '37102b68210adfa84d688317d43b0ce6'
+API_ID = #
+API_HASH = '#'
 SEND_CHAT = '@teambinn'
 
 client = TelegramClient('session', API_ID, API_HASH)
@@ -60,7 +60,7 @@ async def my_event_handler(m):
     fullinfo = f"{cc}|{mes}|{ano}|{cvv}"
     text = f"""
 ╔═══════════════════════╗
-╟ ● **𝑺𝒄𝒓𝒂𝒑𝒑𝒆𝒓 𝑰𝒏𝒇𝒊𝒏𝒊𝒕𝒚↯** 
+╟ ● **𝑴𝒂𝒏𝒅𝒂𝒓𝒊𝒏 𝑺𝒄𝒓𝒂𝒑𝒑𝒆𝒓↯** 
 ╟═══════════════════════╝
 ╟ ● __𝐂𝐂↯__:
 ╟ ╙ `{cc}|{mes}|{ano}|{cvv}`
@@ -69,7 +69,7 @@ async def my_event_handler(m):
 ╟ ╙ {bin_json['bank']}
 ╟ ╙ {bin_json['country_iso']} - {bin_json['flag']}
 ╟ ● __𝐅𝐔𝐋𝐋 𝐈𝐍𝐅𝐎↯__:
-╟ ╙ {fullinfo}
+╟ ╙ {fullinfo} ๖ۣۜßl‌ad‌e‌☘
 ╚═══════════════════════╝
 """    
     print(f'{cc}|{mes}|{ano}|{cvv}')
